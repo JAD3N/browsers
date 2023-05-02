@@ -5,7 +5,7 @@ authors = ["Jaden Buchan <me@jaden.bio>"]
 edition = "2021"
 license-file = "LICENSE.md"
 repository = "https://github.com/jad3n/browsers"
-documentation = "https://docs.rs/browsers/0.1"
+documentation = "https://docs.rs/browsers"
 description = """
 This crate is a quick and easy way to find what
 browsers are installed on an operating system
