@@ -3,7 +3,6 @@ name = "browsers"
 version = "0.1.0"
 authors = ["Jaden Buchan <me@jaden.bio>"]
 edition = "2021"
-license = "MIT"
 license-file = "LICENSE.md"
 repository = "https://github.com/jad3n/browsers"
 documentation = "https://docs.rs/browsers/0.1"
