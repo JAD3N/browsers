@@ -1,5 +1,13 @@
 # Browsers
 
+[![Crates.io][crates-badge]][crates-url]
+[![MIT licensed][mit-badge]][mit-url]
+
+[crates-badge]: https://img.shields.io/crates/v/browsers.svg
+[crates-url]: https://crates.io/crates/browsers
+[mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[mit-url]: LICENSE
+
 This crate is a quick and easy way to find what browsers are installed on an operating system (supports MacOS, Windows and Linux).
 
 # Usage
