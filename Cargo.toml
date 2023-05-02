@@ -1,7 +1,17 @@
 [package]
 name = "browsers"
 version = "0.1.0"
+authors = ["Jaden Buchan <me@jaden.bio>"]
 edition = "2021"
+license = "MIT"
+license-file = "LICENSE.md"
+repository = "https://github.com/jad3n/browsers"
+documentation = "https://docs.rs/browsers/0.1"
+description = """
+This crate is a quick and easy way to find what
+browsers are installed on an operating system
+(supports MacOS, Windows and Linux).
+"""
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
