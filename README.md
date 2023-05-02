@@ -9,7 +9,7 @@
 [docs.rs-badge]: https://img.shields.io/docsrs/v/browsers.svg
 [docs.rs-url]: https://docs.rs/browsers
 [mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[mit-url]: LICENSE
+[mit-url]: LICENSE.md
 
 This crate is a quick and easy way to find what browsers are installed on an operating system (supports MacOS, Windows and Linux).
 
