@@ -6,7 +6,7 @@
 
 [crates-badge]: https://img.shields.io/crates/v/browsers.svg
 [crates-url]: https://crates.io/crates/browsers
-[docs.rs-badge]: https://img.shields.io/docsrs/v/browsers.svg
+[docs.rs-badge]: https://img.shields.io/docsrs/browsers.svg
 [docs.rs-url]: https://docs.rs/browsers
 [mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [mit-url]: LICENSE.md
