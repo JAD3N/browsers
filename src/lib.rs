@@ -1,4 +1,4 @@
-use core::fmt;
+use std::fmt;
 use std::path::PathBuf;
 use thiserror::Error;
 use which::which;
