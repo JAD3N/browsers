@@ -1,3 +1,4 @@
+use core::fmt;
 use std::path::PathBuf;
 use thiserror::Error;
 use which::which;
@@ -18,6 +19,19 @@ pub enum BrowserKind {
     Safari,
     Brave,
     Opera,
+}
+
+impl fmt::Display for BrowserKind {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        match self {
+            BrowserKind::Chrome => write!(f, "Chrome"),
+            BrowserKind::Chromium => write!(f, "Chromium"),
+            BrowserKind::Firefox => write!(f, "Firefox"),
+            BrowserKind::Safari => write!(f, "Safari"),
+            BrowserKind::Brave => write!(f, "Brave"),
+            BrowserKind::Opera => write!(f, "Opera"),
+        }
+    }
 }
 
 pub fn get_browser_path(kind: BrowserKind) -> Result<PathBuf, Error> {

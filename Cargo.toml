@@ -1,6 +1,6 @@
 [package]
 name = "browsers"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jaden Buchan <me@jaden.bio>"]
 edition = "2021"
 license-file = "LICENSE.md"
