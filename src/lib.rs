@@ -36,7 +36,9 @@ impl fmt::Display for BrowserKind {
 
 pub fn get_browser_path(kind: BrowserKind) -> Result<PathBuf, Error> {
     Ok(match kind {
-        BrowserKind::Chrome => which("google-chrome").or_else(|_| which("google-chrome-stable")),
+        BrowserKind::Chrome => which("chrome")
+            .or_else(|_| which("google-chrome"))
+            .or_else(|_| which("google-chrome-stable")),
         BrowserKind::Chromium => which("chromium").or_else(|_| which("chromium-browser")),
         BrowserKind::Firefox => which("firefox"),
         BrowserKind::Safari => which("safari"),
